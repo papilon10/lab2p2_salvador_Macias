@@ -9,6 +9,7 @@ package lab2p2_salvador;
  * @author Apple
  */
 public class stack {
+
     public objeto Objeto;
     public int cantidad;
 
@@ -35,8 +36,10 @@ public class stack {
     public void setCantidad(int cantidad) {
         this.cantidad = cantidad;
     }
-    
-    
-    
-    
+
+    @Override
+    public String toString() {
+        return "stack{" + "Objeto=" + Objeto + ", cantidad=" + cantidad + '}';
+    }
+
 }

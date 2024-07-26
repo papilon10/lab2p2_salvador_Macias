@@ -17,7 +17,7 @@ public class Lab2p2_salvador {
     /**
      * @param args the command line arguments
      */
-    public static ArrayList lista = new ArrayList();
+    public static ArrayList inventario = new ArrayList();
     public static Scanner lea = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -50,7 +50,7 @@ public class Lab2p2_salvador {
             }
 
             break;
-            
+
             case "2": {
 
             }
@@ -97,7 +97,13 @@ public class Lab2p2_salvador {
 
             break;
             case "11": {
-
+                for (int i = 0; i < inventario.size(); i++) {
+                    System.out.println(inventario = inventario + i + ") " + inventario.get(i) + "\n";
+                
+            
+            ); 
+        }
+                
             }
 
             break;

@@ -9,6 +9,7 @@ package lab2p2_salvador;
  * @author Apple
  */
 public class objeto {
+
     public String nombre;
     public int durabilidad;
 
@@ -35,8 +36,10 @@ public class objeto {
     public void setDurabilidad(int durabilidad) {
         this.durabilidad = durabilidad;
     }
-    
-    
-    
-    
+
+    @Override
+    public String toString() {
+        return "objeto{" + "nombre=" + nombre + ", durabilidad=" + durabilidad + '}';
+    }
+
 }
