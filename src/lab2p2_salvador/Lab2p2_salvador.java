@@ -97,13 +97,41 @@ public class Lab2p2_salvador {
 
             break;
             case "11": {
-                for (int i = 0; i < inventario.size(); i++) {
-                    System.out.println(inventario = inventario + i + ") " + inventario.get(i) + "\n";
-                
-            
-            ); 
-        }
-                
+
+            }
+            case "12": {
+                if (inventario.isEmpty()) {
+                    System.out.println("el inventario no cuenta con recursos...");
+
+                } else {
+                    for (int i = 0; i < inventario.size(); i++) {
+                        System.out.println(
+                                inventario.indexOf(inventario.get(i)) + "-"
+                                + inventario.get(i)
+                        );
+
+                    }
+
+                }
+                String i = JOptionPane.showInputDialog("Ingrese el indice del objeto a eliminar: ");
+                inventario.remove(i);
+                JOptionPane.showMessageDialog(null, "el objeto se ha eliminado con exito");
+            }
+            case "13": {
+                if (inventario.isEmpty()) {
+                    System.out.println("el inventario no cuenta con recursos...");
+
+                } else {
+                    for (int i = 0; i < inventario.size(); i++) {
+                        System.out.println(
+                                inventario.indexOf(inventario.get(i)) + "-"
+                                + inventario.get(i)
+                        );
+
+                    }
+
+                }
+
             }
 
             break;
