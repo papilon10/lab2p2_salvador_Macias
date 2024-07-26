@@ -23,6 +23,13 @@ public class Lab2p2_salvador {
     public static void main(String[] args) {
 
         menu();
+        inventario.add(new objeto("madera", 0));
+        inventario.add(new objeto("madera", 0));
+        inventario.add(new objeto("madera", 0));
+        inventario.add(new objeto("madera", 0));
+        inventario.add(new objeto("piedra", 0));
+        inventario.add(new objeto("piedra", 0));
+        inventario.add(new objeto("piedra", 0));
 
     }
 
@@ -82,21 +89,28 @@ public class Lab2p2_salvador {
 
             break;
             case "8": {
-
+                inventario.add(new objeto("palo", 0));
+                JOptionPane.showMessageDialog(null, "El palo se ha creado exitosamente...");
             }
 
             break;
             case "9": {
+                inventario.add(new objeto("pico", 0));
+                JOptionPane.showMessageDialog(null, "El pico se ha creado exitosamente...");
 
             }
 
             break;
             case "10": {
+                inventario.add(new objeto("hacha", 0));
+                JOptionPane.showMessageDialog(null, "La hacha se ha creado exitosamente...");
 
             }
 
             break;
             case "11": {
+                inventario.add(new objeto("antorcha", 0));
+                JOptionPane.showMessageDialog(null, "La antorcha se ha creado exitosamente...");
 
             }
             case "12": {
