@@ -17,6 +17,9 @@ public class Lab2p2_salvador {
     /**
      * @param args the command line arguments
      */
+
+    //fila 3 silla 6
+    
     public static ArrayList inventario = new ArrayList();
     public static Scanner lea = new Scanner(System.in);
 
